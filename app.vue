@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+    <div>
+        <NuxtPage />
+    </div>
 </template>
+
+<style scoped>
+@import "./style/main.css";
+</style>

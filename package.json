@@ -1,20 +1,21 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "dependencies": {
-    "@primeuix/themes": "^1.0.0-rc.1",
-    "nuxt": "^3.15.4",
-    "primeicons": "^7.0.0",
-    "primevue": "^4.2.5",
-    "vue": "latest",
-    "vue-router": "latest"
-  }
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "@tresjs/cientos": "^4.3.0",
+        "@tresjs/nuxt": "^3.0.8",
+        "@tresjs/post-processing": "^2.3.1",
+        "nuxt": "^3.16.1",
+        "primeicons": "^7.0.0",
+        "vue": "latest",
+        "vue-router": "latest"
+    }
 }
